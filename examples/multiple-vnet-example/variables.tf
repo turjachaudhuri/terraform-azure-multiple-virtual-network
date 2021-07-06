@@ -93,6 +93,7 @@ variable "private_subnet_definition"{
 
 variable "gateway_subnet_definition"{
   type="list"
+  default = []
 }
 
 variable "dns_map"{
